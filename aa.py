@@ -4,7 +4,7 @@ import pandas as pd
 # Načti data
 @st.cache_data
 def load_data():
-    return pd.read_csv("/Users/adamkelbl/Desktop/textil.csv")
+    return pd.read_csv("textil.csv")
 
 df = load_data()
 
